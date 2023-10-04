@@ -7,9 +7,15 @@ import "./Login.css";
 export const Login = () => {
   return (
     <>
-      <h1 className="heading" style={{ fontSize: "7rem" }}>
-        Choose Your Role
-      </h1>
+      <h2 className="heading" style={{ fontSize: "3.5rem" }}>
+        Welcome to the Planet!
+        <br/>
+      </h2>
+      <div className="animation">
+      <span>CHOOSE</span>
+      <span>YOUR</span>
+      <span>ROLE</span>
+      </div>
         <div className="image-container">
           <div className="vendor-login login-items">
             <img src={img1} alt="1 desc" height={100} />
